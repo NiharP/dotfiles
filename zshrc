@@ -121,3 +121,5 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 source $(brew --prefix nvm)/nvm.sh
+
+eval "$(starship init zsh)"
